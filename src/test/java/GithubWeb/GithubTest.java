@@ -8,10 +8,6 @@ import org.testng.annotations.Test;
 
 public class GithubTest extends BaseClass {
     @Test
-    @Epic("Docs flow")
-    @Feature("Docs Feature")
-    @Story("User shall view documentations")
-    @Owner("Bshr")
     @Severity(SeverityLevel.CRITICAL)
     @Description("This is a method to verify that user is able to view and nav to docs ")
     public void mainPageMethod() throws InterruptedException {

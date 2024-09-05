@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BasicSuite">
+    <test name="BasicTest">
+        <classes>
+            <class name="GithubWeb.GithubHomeTest"/>
+            <class name="GithubWeb.GithubTest"/>
+        </classes>
+    </test>
+</suite>
